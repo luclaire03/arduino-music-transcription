@@ -24,4 +24,4 @@ Example: draw_sharp(67, 10);
 draw_sharp draws 4 lines around center_x, center_y, to draw a sharp.
 
 # About
-This script was originally created in Spring 2021 as part of my final project for MIT's 6.08: Interconnected and Embedded Systems class. It functions as part of a larger system that records audio, determines notes from that audio, and transcribes it onto an LCD screen. I have obtained written permission from course instructors to publish this code online.
+This script was originally created in Spring 2021 as part of my final project for MIT's 6.08: Interconnected and Embedded Systems class. It functions as part of a larger system that records audio, determines notes from that audio, and transcribes the notes onto an LCD screen. I have obtained written permission from course instructors to publish this code online.
