@@ -3,6 +3,7 @@ An Arduino script for drawing realistic music notation on an LCD screen - staffs
 
 # draw_note
 Parameters: note (char array), duration in milliseconds (int), bpm (int)
+
 Example: draw_note("F#4", 1000, 60);
 
 draw_note first checks if there is a # in note, then parses the # away if there is. Then, draw_note uses the remaining char array to determine the appropriate location to draw the note. Currently, draw_note only supports notes from C4 to F5.
@@ -13,12 +14,14 @@ If there was a sharp in the original note array, draw_sharp is called.
 
 # draw_staff
 Parameters: x_offset (int)
+
 Example: draw_staff(60);
 
 draw_staff draws 5 parallel lines across the screen. x_offset determines how far down from the edge that these lines should be drawn (for example, drawing another staff on the screen after one has already been used). 
 
 # draw_sharp
 Parameters: center_x (int), center_y (int)
+
 Example: draw_sharp(67, 10);
 
 draw_sharp draws 4 lines around center_x, center_y, to draw a sharp.
